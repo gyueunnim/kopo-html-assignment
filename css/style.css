@@ -1,0 +1,204 @@
+div[class^="page"] {
+  background-color: white;
+  height: 900px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+div[class$="mid"],
+div[class$="left"],
+div[class$="right"] {
+  width: 100%;
+  height: 700px;
+}
+div[class$="mid"] {
+  margin-bottom: 50px;
+}
+
+div[class$="content-text"] {
+  text-align: center;
+  padding-top: 45px;
+}
+div[class$="content-text"] > h3 {
+  color: #4256ff;
+  font-size: 25px;
+  font-family: SpoqaHanSansNeoBold;
+  padding-bottom: 20px;
+}
+div[class$="content-text"] > p {
+  color: rgb(140, 140, 140);
+  margin-top: 12.5px;
+  margin-bottom: 12.5px;
+  font-family: SpoqaHanSansNeoLight;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.intro-view {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: -100%;
+}
+.intro-center {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+.intro-left {
+  justify-content: flex-end;
+}
+.intro-left > p {
+  padding-left: 65px;
+  padding-bottom: 40px;
+}
+.intro-right {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.intro-right > p {
+  padding-right: 65px;
+  padding-bottom: 40px;
+}
+.intro-header {
+  position: absolute;
+  top: 45px;
+  font-size: 12.5px;
+  color: white;
+  letter-spacing: 25px;
+}
+
+.index {
+  flex-direction: column;
+  height: 100%;
+}
+.index-left {
+  flex: 2;
+  flex-direction: column;
+}
+.index-right {
+  flex: 2.5;
+  flex-direction: column;
+  position: relative;
+}
+.index-title > h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 45px;
+}
+.index-title > h2 {
+  font-size: 30px;
+}
+.index-title > h3 {
+  color: #5f6eed;
+}
+.index-list {
+  height: 50px;
+}
+.index-list-box {
+  flex-direction: column;
+  width: 100%;
+  padding-left: 75px;
+  padding-right: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.index-list-num {
+  width: 40px;
+  height: 40px;
+  background-color: #b8c6ff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 17.5px;
+}
+.index-content {
+  font-size: 25px;
+  flex: 1.5;
+  padding-left: 10px;
+}
+.index-page-num {
+  flex: 5;
+  text-align: end;
+  font-size: 20px;
+  color: #7180ff;
+}
+.index-page-num-dot {
+  color: rgb(213, 213, 213);
+  letter-spacing: 5px;
+  padding-right: 30px;
+  font-size: 25px;
+}
+
+.about {
+  height: 100%;
+}
+.about-left {
+  flex: 1;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-top: 75px;
+}
+.about-title > h1 {
+  padding-top: 20px;
+  font-size: 55px;
+}
+.about-title > h3 {
+  font-size: 22.5px;
+  color: #5f6eed;
+}
+.about-right {
+  flex: 2.5;
+  position: relative;
+  padding-right: 75px;
+  padding-top: 100px;
+}
+.about-content-list {
+  padding-top: 50px;
+}
+.about-info > h2 {
+  width: 100px;
+}
+
+.hobby {
+  height: 100%;
+}
+.hobby-content {
+  padding-left: 250px;
+  padding-right: 200px;
+  padding-top: 35px;
+  position: relative;
+}
+.hobby-title {
+  padding-left: 100px;
+  justify-content: flex-end;
+}
+.hobby-title > h1 {
+  padding-top: 20px;
+  font-size: 55px;
+}
+.hobby-title > h3 {
+  font-size: 22.5px;
+  color: #5f6eed;
+}
+
+.done {
+  height: 100%;
+}
+.done-title > h1 {
+  padding-top: 20px;
+  font-size: 55px;
+}
+.done-title > h3 {
+  font-size: 22.5px;
+  color: #5f6eed;
+}
+.done-content {
+  position: relative;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.done-title {
+  padding-left: 100px;
+  justify-content: flex-end;
+}

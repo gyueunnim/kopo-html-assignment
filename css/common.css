@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("../font/GmarketSansBold.otf") format("woff");
+}
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("../font/GmarketSansMedium.otf") format("woff");
+}
+@font-face {
+  font-family: "SpoqaHanSansNeoLight";
+  src: url("../font/SpoqaHanSansNeo-Light.otf") format("woff");
+}
+@font-face {
+  font-family: "SpoqaHanSansNeoBold";
+  src: url("../font/SpoqaHanSansNeo-Bold.otf") format("woff");
+}
+div {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  width: 1500px;
+  background-color: #ebebeb;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+.comm-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #d0d0d0;
+  padding-top: 20px;
+  padding-left: 75px;
+}
+.comm-bottom {
+  font-size: 12.5px;
+  color: white;
+  background-color: #7180ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fw-b {
+  font-weight: bold;
+}
+.fw-m {
+  font-weight: 600;
+}
+
+.ff-gsb {
+  font-family: GmarketSansBold;
+}
+.ff-gsm {
+  font-family: GmarketSansMedium;
+}
+.ff-snl {
+  font-family: SpoqaHanSansNeoLight;
+}
+.ff-snb {
+  font-family: SpoqaHanSansNeoBold;
+}
+.container {
+  height: 100%;
+}
+.fx {
+  display: flex;
+}
+.fx-col {
+  flex-direction: column;
+}
+.fx-row {
+  flex-direction: row;
+}
+.ai-c {
+  align-items: center;
+}
+.jc-c {
+  justify-content: center;
+}
+.t-100 {
+  top: -100%;
+}
+.t-200 {
+  top: -200%;
+}
+.fx-1 {
+  flex: 1;
+}
+.fx-2 {
+  flex: 2;
+}
+.fx-3 {
+  flex: 3;
+}
+.h-50 {
+  height: 50%;
+}
+.bg-main-color {
+  background-color: #7180ff;
+}
+.mg-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.ab-c {
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
